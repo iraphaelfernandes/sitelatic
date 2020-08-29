@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$("#slide li:eq(0)").addClass("ativo").show();
+	setInterval(slide,2000);
+	function slide(){
+		if($(".ativo").next().size()){
+			$(".ativo").fadeOut().removeClass("ativo").next().fadeIn().addClass("ativo");
+		}else{
+			$(".ativo").fadeOut().removeClass("ativo");
+			$("#slide li:eq(0)").fadeIn().addClass("ativo");
+		}
+	}
+});

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; 
+}
+
+html, body {
+  height: 100%; 
+  width: auto;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  cursor: auto;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}

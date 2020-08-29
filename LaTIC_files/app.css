@@ -1,0 +1,264 @@
+﻿.top-bar {
+  background: #ffffff;
+  opacity: 1; /*deixar "transparente. Alterar tbm menu-top*/
+}
+
+.top-bar .top-bar-section ul li > a {
+  /*altera cor das palavras do menu top bar*/
+  color: #1b75ba;
+  font-size: 16px;
+}
+.top-bar.expanded .title-area {
+  /*mudar a cor do menu extendido na versão mobile */
+  background: #ffffff;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+  /*Palavra "Menu" da versão mobile*/
+  color: #018dbb;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+  /*altera fundo dos itens do menu top bar*/
+  background: #ffffff;
+}
+.top-bar-section li {
+  margin-left: 20px;
+}
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+  /*Altera efeito de hover do menu top-bar */
+  color: #1b75ba;
+  background: #ffffff;
+}
+
+.menu-top {
+  background: #ffffff;
+  opacity: 0.9; /*deixar "transparente". alterar tbm top-bar*/
+}
+.menu img {
+  margin-top: 49px;
+  padding-right: 4px;
+}
+
+.menu {
+  background-color: #dad8d8;
+  margin-bottom: 10px;
+  height: 415px;
+  margin-top: 0px;
+  border-left: 1px solid #ffffff;
+}
+.menu-para-small {
+  height: 487px;
+  background-color: #dad8d8;
+  margin-top: -5px;
+}
+.menu-para-small img {
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+.menu-para-medium img {
+  padding-bottom: 4px;
+}
+
+.missao {
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+.missao p {
+  color: #7a7979;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.servicos {
+  background-color: #6190b3;
+  color: #ffffff;
+}
+.servicos article h5,
+.servicos article h1 {
+  color: #ffffff;
+}
+.servicos a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.RealidadeVirtual {
+  background-color: #3c444c;
+  color: #ffffff;
+}
+.RealidadeVirtual h1 {
+  color: #ffffff;
+}
+
+.RealidadeVirtual-para-medium {
+  background-color: #3c444c;
+  color: #ffffff;
+}
+.RealidadeVirtual-para-medium h1 {
+  color: #ffffff;
+}
+
+.RealidadeVirtual-para-mobile {
+  background-color: #3c444c;
+  color: #ffffff;
+}
+.RealidadeVirtual-para-mobile h1 {
+  color: #ffffff;
+}
+
+.publicacoes {
+  background-color: #e8e8e8;
+  color: #7a7979;
+  height: 400px;
+}
+.publicacoes h1 {
+  color: #7a7979;
+}
+.publicacoesMobile {
+  background-color: #e8e8e8;
+  color: #7a7979;
+  height: 1000px;
+}
+.publicacoesMobile h1 {
+  color: #7a7979;
+}
+
+.Favoritos {
+  background-color: #ffffff;
+  color: #7a7979;
+}
+.Favoritos h1 {
+  color: #7a7979;
+}
+.quemsomos {
+  background-color: #6190b3;
+  color: #ffffff;
+  height: 1123px;
+}
+.quemsomos h1 {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.quemsomos h5 {
+  color: #ffffff;
+}
+
+.quemsomos-para-mobile {
+  background-color: #6190b3;
+  color: #ffffff;
+}
+.quemsomos-para-mobile h1 {
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.quemsomos-para-mobile h5 {
+  color: #ffffff;
+}
+
+.contatos {
+  background-color: #3c444c;
+  color: #ffffff;
+}
+.contatos h1 {
+  color: #ffffff;
+}
+
+.googleplay img {
+  margin-top: 10px;
+  padding-left: 90px;
+  margin-left: 320px;
+  margin-bottom: 30px;
+}
+
+.googleplay-para-medium img {
+  margin-top: 20%;
+  margin-left: 182%;
+  margin-bottom: 15%;
+}
+
+.googleplay-para-mobile img {
+  margin-top: 27%;
+  margin-left: 90%;
+  margin-bottom: 30%;
+}
+
+.uerj img {
+  margin-top: 109px;
+  padding-left: 90px;
+}
+.borda {
+  border-top: 1px solid;
+  text-align: center;
+}
+.borda p {
+  padding-top: 5px;
+}
+.efeito-imagem img {
+  opacity: 0.8;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.efeito-imagem:hover img {
+  opacity: 1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.afastamento {
+  margin-top: 20px;
+}
+.faceMobile img {
+  margin-top: 48px;
+}
+.youtube img {
+  margin-left: 10px;
+}
+.colunaEsquerda {
+  background-color: #6190b3;
+  border: none;
+  text-align: right;
+  color: #ffffff;
+  font-weight: bold;
+}
+.colunaDireita {
+  background-color: #6190b3;
+  border: none;
+  text-align: left;
+  color: #ffffff;
+}
+.tabela {
+  margin-left: 4px;
+}
+table {
+  border-color: #6190b3;
+}
+
+#slide {
+  width: 294px;
+  overflow: hidden;
+  height: 437px;
+  margin: 50px auto;
+
+  /*box-shadow: 0 0 8px #000;*/
+  position: relative;
+}
+#slide ul li {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+
+.uerj360 {
+  background-color: #3c444c;
+}
+
+.uerj360-para-medium {
+  background-color: #3c444c;
+  width: 100%;
+}
+
+.uerj360-para-mobile {
+  background-color: #3c444c;
+  width: 100%;
+}

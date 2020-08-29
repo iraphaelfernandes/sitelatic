@@ -1,0 +1,235 @@
+/* Controls image logo on top */
+
+@media (max-width: 1000px) {
+  .icon-top img {
+    width: 6rem; 
+    height: auto;
+  }
+}
+/* Controls sliders */
+@media (min-width: 700px) {
+  #left-arrow {
+    display: none;
+  }
+  
+  #right-arrow {
+    display: none;
+  }
+  #slider {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .display-fotos {
+    display: none;
+  }
+
+  #slider {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #dad8d8;
+  }
+  .slide a img {
+    margin-left: 28%;
+    margin-top: 5%;
+
+  }
+
+  
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #dad8d8;
+    display: none;
+  
+  }
+  .slide.active {
+    display: block;
+  }
+  
+
+
+  #left-arrow {
+    color: red;
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  #right-arrow {
+    color: red;
+    position: absolute;
+    top: 200px;
+    right: 28px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+
+/* Display photos without slide */
+
+@media (min-width: 700px) {
+
+
+  .display-fotos{
+    display: flex;
+
+  }
+
+  #fotos-1 {
+    flex: 1;
+  }
+  #fotos-2 {
+    flex: 1;
+  }
+  #fotos-3 {
+    flex: 1;
+  }
+  #fotos-4 {
+    flex: 1;
+  }
+
+  #icons-360 {
+    display: flex;
+  }
+  #version-1-360 {
+    flex: 1;
+  }
+  #version-2-360{
+    flex: 1;
+  }
+
+
+
+  .contatos {
+    display: flex;
+  }
+  .text-contatos {
+    flex: 1;
+  }
+
+
+.logo-uerj {
+  flex: 1;
+}
+
+}
+
+/* medir to control the menu */
+
+@media (max-width: 850px) {
+
+  .div-header {
+    flex-direction: column;
+  }
+
+  .navbar {
+    width: 50%;
+      flex-direction: column;
+      align-items: flex-start;
+      color: black;
+  }
+
+  .toggle-button {
+      display: flex;
+      color: black;
+  }
+
+  .navbar-links {
+      font-size: 1.2rem;
+      display: none;
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .navbar-links ul {
+      
+      flex-direction: column;
+  }
+
+  .navbar-links ul li {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 0;
+      margin-top: 0;
+      margin-left: .5rem;
+    
+
+  }
+
+  .navbar-links ul li a {
+      /* padding: .5rem .5rem; */
+      
+  }
+
+  .navbar-links.active {
+      display: flex;
+  }
+}
+
+
+@media (max-width: 973px) {
+  .contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .logo-uerj {
+    flex: 1;
+    padding-bottom: 1em;
+    /* padding-left: 0.5em; */
+  }
+  .text-contatos {
+    flex: 1;
+  }
+
+}
+@media (max-width: 846px) {
+
+  .publicacoes-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .aproximando {
+    flex: 1;
+    
+  }
+  .aproximando img {
+    padding-left: 10em;
+  }
+
+  .pub h1 {
+    padding-left: 28%;
+  }
+
+
+  .pub-text {
+    flex: 2;
+    width: 100%;
+  }
+}
+
+
+
+@media (min-width: 847px) {
+  .publicacoes-flex{
+    display: flex;
+  }
+
+  .aproximando {
+    flex: 1;
+
+  }
+  .pub-text {
+    flex: 2;
+    
+  }
+}
