@@ -23,3 +23,18 @@ $('#left-arrow').click(function () {
   }
 
 });
+
+$(function () {
+  $('#slider .slide:eq(0)').addClass("active").show();
+  setInterval(slide, 3000);
+
+  function slide() {
+    if ($('.active').next().size()) {
+      $('.active').fadeOut().removeClass('active').next().fadeIn().addClass('active');
+    }
+    else {
+      $('.active').fadeOut().removeClass('active');
+      $("slider .slide:eq(0)").fadeIn().addClass('active');
+    }
+  }
+})

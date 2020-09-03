@@ -8,7 +8,7 @@
     /* This below do the header stay stick */
     position: sticky;
     top: 0;
-    
+    z-index: 99;
   }
 
 
@@ -16,7 +16,7 @@
     background-color: #ffffff;
 
     width: 100%;
-    min-height: 60px;
+    min-height: 45px;
     margin-right: 0;
     margin-left: 0;
     display: block;
@@ -34,6 +34,9 @@
   margin-right: auto;
   margin-left: 15%;
 }
+.icon-top:hover img {
+  opacity: .4;
+}
 
 
 a { 
@@ -48,7 +51,7 @@ a {
 }
 
 .navbar {  
-  font-size: 1.1rem;
+  
   margin-right: 15%;
   display: flex;
   /* justify-content: space-between; */
@@ -68,7 +71,7 @@ a {
 
 .navbar-links li {
   margin-top: .75rem;
-  margin-left: 3rem;
+  margin-left: 2.5rem;
   list-style: none;
   /* margin: 1rem; */
 }
@@ -78,7 +81,7 @@ a {
   color: #1b75ba;
 }
 .navbar-links li:hover {
-  background-color: #D4E9E8;
+  opacity: .5;
 }
 
 .toggle-button {
@@ -128,9 +131,12 @@ img:hover {
   /* padding: 0.2em; */
   padding: 0;
   margin-right: 0.2em;
+  z-index: 0;
 }
+
 .fotos-item {
   margin-top: 5px;
+  position: relative;
 }
 #fotos-1 {
   flex: 1; 
@@ -178,7 +184,7 @@ img:hover {
   height: auto;
 }
 .img-version {
-  position:relative;
+  
   top:10%;
   left:50%;
   margin-left: 10%;
@@ -194,15 +200,11 @@ img:hover {
   padding: 0;
   margin-bottom: 0;
 }
-#version-1-360 img{
-  height: 80%;
-  width: auto;
-  margin: 0;
+#version-1-360:hover img{
+opacity: 0.6;
 }
-#version-2-360 img{
-  height: 80%;
-  width: auto;
-  margin: 0;
+#version-2-360:hover img{
+  opacity: 0.6;
 }
 
 .servicos {
@@ -253,6 +255,9 @@ img:hover {
   margin-top: 3%;
   width: 15%;
   height: auto;
+}
+#icon-googleplay:hover img {
+  opacity: .3;
 }
 
 
@@ -379,8 +384,11 @@ padding-right: 1em;
 }
 .logo-uerj img {
     position:relative;
-    left:50%;
+    left:10%;
     top:0%;
+}
+.logo-uerj:hover img {
+  opacity: .6;
 }
 
 .text-contatos {
@@ -392,6 +400,15 @@ padding-right: 1em;
 }
 .text-contatos img {
   padding-bottom: 5px ;
+}
+.aproximando:hover img {
+  opacity: .8;
+}
+.face:hover img {
+  opacity: .6;
+}
+.youtube:hover img {
+  opacity: .6;
 }
 .last-line p {
   padding-top: 2em;
