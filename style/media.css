@@ -256,11 +256,11 @@
     
   }
   .aproximando img {
-    padding-left: 10em;
+    margin-left: 15%;
   }
 
   .pub h1 {
-    padding-left: 28%;
+    padding-left: 18%;
   }
 
 
@@ -268,6 +268,9 @@
     flex: 2;
     width: 100%;
   }
+
+
+
 }
 
 
@@ -279,10 +282,58 @@
 
   .aproximando {
     flex: 1;
-
+  
   }
   .pub-text {
     flex: 2;
     
+  }
+}
+
+@media (min-width: 847px) {
+
+  .uerjianos-flex {
+    display: flex;
+    
+  }
+
+  .img-uerjianos {
+    flex: 1;
+  }
+
+  .text-uerjianos{
+    flex: 2;
+  }
+}
+@media (max-width: 847px) {
+
+  .uerjianos-flex {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .img-uerjianos {
+    flex: 1;
+  }
+
+  .text-uerjianos{
+    flex: 1;
+  }
+
+  .img-uerjianos img {
+    float: left;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 700px) {
+  .title-uerjianos h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .title-uerjianos h1 {
+    font-size: 1.5rem;
   }
 }

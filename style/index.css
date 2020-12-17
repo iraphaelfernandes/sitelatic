@@ -4,6 +4,10 @@
       display: inline;
   }
    */
+
+  .wrapper{
+
+  }
   .sec-header {
     /* This below do the header stay stick */
     position: sticky;
@@ -171,6 +175,7 @@ img:hover {
 
 }
 #text-360 p { 
+  text-align: justify;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -215,7 +220,7 @@ opacity: 0.6;
 }
 .servicos a {
   color: #ffffff;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .servicos-inside {
@@ -243,6 +248,7 @@ opacity: 0.6;
   line-height: 3em;
 }
 .text-realidade p {
+  text-align: justify;
   font-family: inherit;
   font-size: 1rem;
   font-weight: normal;
@@ -260,7 +266,7 @@ opacity: 0.6;
   opacity: .3;
 }
 
-
+/* Publicações */
 .sec-pub {
   background-color: #e8e8e8;
   color: #7a7979;
@@ -278,15 +284,74 @@ opacity: 0.6;
   box-sizing: inherit;
   line-height: 1.5em;
 }
+
 .pub {
+  
   padding-top: 2em;
   padding-bottom: 2em;
   margin-right: 15%;
   margin-left: 15%;
   
 }
-.aproximando img {
+.title-uerjianos {
+  font-size: .2rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  margin-right: 15%;
+  margin-left: 15%;
+}
 
+
+/* Uerjianos */
+.sec-uerjianos {
+  background-color: #dad8d9;
+  color: #7a7979;
+}
+.sec-uerjianos h1 {
+  font-size: 2.75rem;
+}
+.sec-uerjianos img {
+
+}
+.sec-uerjianos p {
+  padding-bottom: 2em;
+  cursor: auto;
+  font-size: 100%;
+  box-sizing: inherit;
+  line-height: 1.5em;
+}
+.text-uerjianos {
+  margin-left: 0;
+  margin-right: 15%;
+}
+
+.text-uerjianos p {
+  text-align: justify;
+  position: relative;
+  line-height: 2rem;
+  margin-left: 8%;
+}
+.img-uerjianos {
+  margin-left: 15%;
+}
+.img-uerjianos img {
+  max-width: 300px;
+  float: right;
+  width: 85%;
+  height: auto;
+  margin-bottom: 5em;
+  
+}
+.img-uerjianos:hover img {
+  opacity: .8;
+}
+.img-social:hover {
+  opacity: .8;
+}
+
+
+
+.aproximando img {
   max-height: 20rem;
   margin-bottom: 5em;
   width: auto;
@@ -299,15 +364,15 @@ opacity: 0.6;
 }
 
 .pub-text {
-  margin-right: 0;
+  
   margin-left: 0;
   width: 300px;
   text-align: justify;
 }
 .pub-text p {
+  line-height: 2rem;
   margin-right: 0;
   padding-left: 4em;
-
 }
 .sec-quem-somos {
   background-color: #6190b3;
@@ -327,10 +392,27 @@ opacity: 0.6;
   display: inline-block;
   vertical-align: middle;
   margin-top: 2em;
-  margin-left: 6em;
+  margin-left: 3em;
   max-width: 80%;
   height: auto;
 }
+/* Ícones de social media */
+
+.div-icons {
+  display: inline;
+  float: right;
+  
+  
+}
+
+.img-social img {
+  height: 2.5rem;
+  width: auto;
+  margin: 1rem;
+}
+
+
+
 
 
 .colunaEsquerda  {
@@ -359,7 +441,7 @@ padding-right: 1em;
 }
 .tabela {
   margin-right: 15%;
-  margin-left: 15%;
+  margin-left: 12%;
   padding-bottom: 4em;
 }
 
@@ -384,7 +466,7 @@ padding-right: 1em;
 }
 .logo-uerj img {
     position:relative;
-    left:10%;
+    left:70%;
     top:0%;
 }
 .logo-uerj:hover img {
